@@ -1,10 +1,3 @@
-/**
- * Highlight Generative Art Script : V0
- * @version: 0.1.2
- * @description The script exposes certain values and methods that
- * can be used within code based generative art.
- */
-
 const hl = (function () {
   let searchParams = new URLSearchParams(window.location.search);
 
