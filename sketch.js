@@ -58,7 +58,7 @@ function draw() {
   let rectWidth =
     (width - margin * 2 - gap * (numberOfRectangles - 1)) / numberOfRectangles;
 
-  // Draw the rectangles, using the numberOfRectangles we generated earlier
+
   for (let n = 0; n < numberOfRectangles; n++) {
     fill(randomColors[n]);
     rect(
